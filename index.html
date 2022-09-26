@@ -56,7 +56,7 @@
                 <p>Функция, принимающая в качестве атрибута текст, возвращающая этот текст в перевернутом виде.</p>
                 <p>const reverse = (text) => {</p>
                    <p>let reversedText = '';</p>
-                    <p>for (let i = 0; i < text.length; i++) {</p>
+                    <p>for (let i = 0; text.length > i; i++) {</p>
                         <p>reversedText = `${text[i]}${reversedText}`;</p>
                     <p>}</p>
                 <p>return reversedText;</p>
