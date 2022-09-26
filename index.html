@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wigth=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script type="module" src="/script.js"></script>
+
+    <title>CV Mary Ko</title>
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <ul>
+                <li href="#about">About Me</li>
+                <li href="#education">Education</li>
+                <li href="work">Work Experience</li>
+                <li href="#code">Code Example</li>
+                <li href="#qualities">Personal Qualities</li>
+                <li href="languages">Languages</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1>Maria Korchevnyuk</h1>
+        <h2> Front-end Developer, Junior</h2>
+
+        <div>
+            <img src="/CV_photo.JPEG">
+        </div>
+
+        <section>
+            <h2 id="about">About Me</h2>
+            <p>Born: 15.04.2002.</p>
+            <p>Enthusiastic and with a great willing to reach the top in a career of Front-end developer.</p>
+        </section>
+
+        <section>
+            <h2 id="education">Education</h2>
+            <p>2009-2020: Academic Gymnasium 56, Saint Petersburg</p>
+            <p>2020-2024: Saint Petersburg State Polytechnic University, Innovation Management</p>
+            <p>2022: Code Basics, JavaScript for Begginers</p>
+        </section>
+
+        <section>
+            <h2 id="work">Work Experience</h2>
+            <p>July 1 - July 23, 2022: Marketer, LSR construction company, Department of Analytics, Analysis, and Development</p>
+        </section>
+
+        <section>
+            <h2 id="code">Code Example (JavaScript)</h2>
+            <p>
+                Функция, принимающая в качестве атрибута текст, возвращающая этот текст в перевернутом виде.
+                
+                const reverse = (text) => {
+                    let reversedText = '';
+
+                    for (let i = 0; i < text.length; i++) {
+                        reversedText = `${text[i]}${reversedText}`;
+                    }
+
+                return reversedText;
+                }
+            </p>
+        </section>
+
+        <section>
+            <h2 id="qualities">Personal Qualities</h2>
+            <ul>
+                <li>Structure Logic</li>
+                <li>Analytic Thinking</li>
+                <li>Persistence</li>
+                <li>Attention to Details</li>
+                <li>Methodicalness</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="languages">Languages</h2>
+            <p>Russian - native</p>
+            <p>English - C1/C2 (Advanced/Proficient)</p>
+            <p>German - A1 (Elementary)</p>
+        </section>
+    </main>
+</body>
+
+</html>
