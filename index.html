@@ -16,10 +16,10 @@
             <ul>
                 <li href="#about">About Me</li>
                 <li href="#education">Education</li>
-                <li href="work">Work Experience</li>
+                <li href="#work">Work Experience</li>
                 <li href="#code">Code Example</li>
                 <li href="#qualities">Personal Qualities</li>
-                <li href="languages">Languages</li>
+                <li href="#languages">Languages</li>
             </ul>
         </div>
     </header>
@@ -32,43 +32,38 @@
             <img src="/CV_photo.JPEG">
         </div>
 
-        <section>
-            <h2 id="about">About Me</h2>
+        <article>
+            <h3 id="about">About Me</h3>
             <p>Born: 15.04.2002.</p>
             <p>Enthusiastic and with a great willing to reach the top in a career of Front-end developer.</p>
-        </section>
+        </article>
 
-        <section>
-            <h2 id="education">Education</h2>
+        <article>
+            <h3 id="education">Education</h3>
             <p>2009-2020: Academic Gymnasium 56, Saint Petersburg</p>
             <p>2020-2024: Saint Petersburg State Polytechnic University, Innovation Management</p>
             <p>2022: Code Basics, JavaScript for Begginers</p>
-        </section>
+        </article>
 
-        <section>
-            <h2 id="work">Work Experience</h2>
+        <article>
+            <h3 id="work">Work Experience</h3>
             <p>July 1 - July 23, 2022: Marketer, LSR construction company, Department of Analytics, Analysis, and Development</p>
-        </section>
+        </article>
 
-        <section>
-            <h2 id="code">Code Example (JavaScript)</h2>
-            <p>
-                Функция, принимающая в качестве атрибута текст, возвращающая этот текст в перевернутом виде.
-                
-                const reverse = (text) => {
-                    let reversedText = '';
+        <article>
+            <h3 id="code">Code Example (JavaScript)</h3>
+                <p>Функция, принимающая в качестве атрибута текст, возвращающая этот текст в перевернутом виде.</p>
+                <p>const reverse = (text) => {</p>
+                   <p>let reversedText = '';</p>
+                    <p>for (let i = 0; i < text.length; i++) {</p>
+                        <p>reversedText = `${text[i]}${reversedText}`;</p>
+                    <p>}</p>
+                <p>return reversedText;</p>
+                <p>}</p>
+        </article>
 
-                    for (let i = 0; i < text.length; i++) {
-                        reversedText = `${text[i]}${reversedText}`;
-                    }
-
-                return reversedText;
-                }
-            </p>
-        </section>
-
-        <section>
-            <h2 id="qualities">Personal Qualities</h2>
+        <article>
+            <h3 id="qualities">Personal Qualities</h3>
             <ul>
                 <li>Structure Logic</li>
                 <li>Analytic Thinking</li>
@@ -76,14 +71,14 @@
                 <li>Attention to Details</li>
                 <li>Methodicalness</li>
             </ul>
-        </section>
+        </article>
 
-        <section>
-            <h2 id="languages">Languages</h2>
+        <article>
+            <h3 id="languages">Languages</h3>
             <p>Russian - native</p>
             <p>English - C1/C2 (Advanced/Proficient)</p>
             <p>German - A1 (Elementary)</p>
-        </section>
+        </article>
     </main>
 </body>
 
