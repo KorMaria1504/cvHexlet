@@ -1,0 +1,19 @@
+header {
+    background-color: rgb(58, 28, 7);
+}
+
+#menu {
+    font-size: 30px;
+    color: bisque;
+}
+
+main {
+    color:rgb(58, 28, 7);
+    background-color: bisque;
+}
+
+section article h3 {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
