@@ -29,7 +29,7 @@
         <h2> Front-end Developer, Junior</h2>
 
         <div>
-            <img src="CV_photo.JPEG">
+            <img src="/CV_photo.JPEG">
         </div>
 
     <section>
@@ -44,23 +44,27 @@
             <p>2009-2020: Academic Gymnasium 56, Saint Petersburg</p>
             <p>2020-2024: Saint Petersburg State Polytechnic University, Innovation Management</p>
             <p>2022: Code Basics, JavaScript for Begginers</p>
+            <p>2022: Hexlet, Layout Designer Basics</p>
         </article>
 
         <article>
             <h3 id="work">Work Experience</h3>
-            <p>July 1 - July 23, 2022: Marketer, LSR construction company, Department of Analytics, Analysis, and Development</p>
+            <p>July 1 - July 23, 2022: Marketer, LSR construction company, Department of Analytics, Research, and Development</p>
         </article>
 
         <article>
             <h3 id="code">Code Example (JavaScript)</h3>
                 <p>Функция, принимающая в качестве атрибута текст, возвращающая этот текст в перевернутом виде.</p>
-                <p>const reverse = (text) => {</p>
-                   <p>let reversedText = '';</p>
-                    <p>for (let i = 0; text.length > i; i++) {</p>
-                        <p>reversedText = `${text[i]}${reversedText}`;</p>
-                    <p>}</p>
-                <p>return reversedText;</p>
-                <p>}</p>
+                <pre>
+                const reverse = (text) => {
+                    let reversedText = '';
+
+                    for (let i = 0; text.length > i; i++) {
+                        reversedText = `${text[i]}${reversedText}`;
+                    }
+                    return reversedText;
+                };
+            </pre>
         </article>
 
         <article>
@@ -68,18 +72,44 @@
             <ul>
                 <li>Structure Logic</li>
                 <li>Analytic Thinking</li>
-                <li>Git & GitHub beginner</li>
+                <li>Git&GitHub beginner</li>
                 <li>VS Code JS/FE beginner</li>
-                <li>C# Junior</li>
+                <li>C# beginner</li>
                 <li>Database developing</li>
             </ul>
         </article>
 
         <article>
             <h3 id="languages">Languages</h3>
-            <p>Russian - <i>native</i></p>
-            <p>English - <i>C1/C2 (Advanced/Proficient)</i></p>
-            <p>German - <i>A1 (Elementary)</i></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <td>Russian</td>
+                    <td>Native</td>
+                </tr>
+
+                <tr>
+                    <td>English</td>
+                    <td>C1/C2 (Advanced/Proficient</td>
+                </tr>
+
+                <tr>
+                    <td>German</td>
+                    <td>A1 (Elementary)</td>
+                </tr>
+
+                <tr>
+                    <td>Italian</td>
+                    <td>A1 (Elementary)</td>
+                </tr>
+
+            </table>
         </article>
     </section>
     </main>
